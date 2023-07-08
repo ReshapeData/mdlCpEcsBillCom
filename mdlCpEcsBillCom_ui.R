@@ -9,9 +9,22 @@ tabItem(tabName = "mdlCpEcsBillCom",
                                     #以上为注册ui组件的内容-----
                                     #begin----
                                     #uiComponent seperated by comma (,)
-                                    mdlDemoUI::dateUI(),
-                                     mdlDemoUI::buttonUI(),
-                                     mdlDemoUI::textUI()
+                                    mdlCpEcsBillUI::purchaseOrderUI(),
+                                    mdlCpEcsBillUI::purchaseReceiveNoticeUI(),
+                                    mdlCpEcsBillUI::purchaseInStockUI(),
+                                    mdlCpEcsBillUI::apBillUI(),
+                                    mdlCpEcsBillUI::purchaseReturnNoticeUI(),
+                                    mdlCpEcsBillUI::purchaseReturnStockUI(),
+                                    mdlCpEcsBillUI::saleOrderUI(),
+                                    mdlCpEcsBillUI::saleDeliveryNoticeUI(),
+                                    mdlCpEcsBillUI::saleOutStockUI(),
+                                    mdlCpEcsBillUI::arBillUI(),
+                                    mdlCpEcsBillUI::saleReturnNoticeUI(),
+                                    mdlCpEcsBillUI::saleReturnStockUI(),
+                                    mdlCpEcsBillUI::miscellaneousInStockUI(),
+                                    mdlCpEcsBillUI::miscellaneousOutStockUI(),
+                                    mdlCpEcsBillUI::stkAssemblyBillUI()
+                                    
                                      
                                     
                                     
