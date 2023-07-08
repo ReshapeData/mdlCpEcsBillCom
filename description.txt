@@ -1,0 +1,27 @@
+version: 0.2
+struture:
+      one module in dms consist of 3 part
+      mdlDemoCom
+      mdlDemoUI
+      mdlDemoServer
+files:
+      ui.R:程序级的UI文件,仅仅用于模块测试,正式发布时需要删除
+      server.R:程序级的Server文件,仅仅用于模块测试,正式发布时需要删除
+      global.R:程序级的Global文件，仅仅用于模块测试,正式发布时需要删除
+      www/:仅仅用于模块测试,实际的文件还是需要放在程序级,正式发布时需要删除
+      mdlDemoCom_ui.R：模块级UI核心注册文件,实际功能定义在mdlDemoUI包中
+      mdlDemoCom_server.R：模块级的Server核心注册文件，实际功能定义在mdlDemoServer包中
+      dmsMdlTpl.Rproj:模块级的项目文件，正式发布时需要进行删除
+      description.txt：项目的描述文件，发布时不需要删除
+      changeLog.txt:版本文件，发布时不需要删除
+steps:
+step1: modify the module_id in global.R
+       modify the app_id in global.R
+       modift the dms_token in global.R
+step2: modify the file name for mdlxxx_ui.R
+step3: modify the file name for mdlxxxx_server.R
+step4: modify the tab_name in mdlxxx_ui.R
+       modify the tabBox title in mdlxxx_ui.R
+       modift the tabBox id in mdlxxx_ui.R
+
+
