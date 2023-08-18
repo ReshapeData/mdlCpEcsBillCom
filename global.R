@@ -11,7 +11,7 @@ module_id ='mdlCpEcsBillCom'
 module_name ='ECS单据'
 
 #获取数据中台数据库连接的token,演示数据为py_test
-dms_token ='75CE5B94-38F1-40F6-9B7B-9B4170C8E5F6'
+dms_token ='9B6F803F-9D37-41A2-BDA0-70A7179AF0F3'
 
 #加载数据中台的所有系统包及程序包
 tstk::import(app_id)
